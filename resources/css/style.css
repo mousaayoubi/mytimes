@@ -106,6 +106,7 @@ html, body {
 
 .column-large--main-title {
 	display: flex;
+	flex-direction: row;
 	width: 630px;
 	border-style: solid;
 	border-width: 1px;
@@ -119,6 +120,8 @@ html, body {
 }
 
 .column-large--main-text {
+	display: flex;
+	flex-direction: row;
 	width: 630px;
 	border-style: solid;
 	border-width: 1px;
@@ -132,6 +135,8 @@ html, body {
 }
 
 .column-large--second-title {
+	display: flex;
+	flex-direction: row;
 	width: 630px;
 	font-family: Georgia;
 	font-size: 17px;
@@ -145,6 +150,8 @@ html, body {
 }
 
 .column-large--second-text {
+	display: flex;
+	flex-direction: row;
 	width: 630px;
 	border-style: solid;
 	border-width: 1px;
@@ -159,6 +166,7 @@ html, body {
 
 .column-large--third-title {
 	display: flex;
+	flex-direction: row;
 	width: 630px;
 	border-style: solid;
 	border-width: 1px;
@@ -175,6 +183,8 @@ html, body {
 }
 
 .column-large--fourth-title {
+	display: flex;
+	flex-direction: row;
 	width: 630px;
 	font-family: Georgia;
 	font-size: 17px;
@@ -188,6 +198,8 @@ html, body {
 }
 
 .column-large--fourth-text {
+	display: flex;
+	flex-direction: row;
 	width: 630px;
 	border-style: solid;
 	border-width: 1px;
@@ -201,6 +213,8 @@ html, body {
 }
 
 .column-large--fifth-title {
+	display: flex;
+	flex-direction: row;
 	width: 630px;
 	border-style: solid;
 	border-width: 1px;
@@ -286,9 +300,10 @@ html, body {
 }
 
 .column-small--first-title {
+	display: flex;
 	width: 630px;
 	font-family: Georgia;
-	font-size: 17px;
+	font-size: 16px;
 	color: black;
 	font-weight: bold;
 	border-style: solid;
@@ -296,17 +311,60 @@ html, body {
 	border-color: black;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	justify-content: center;
 }
 
 .column-small--first-text {
 	width: 630px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
 	align-items: center;
 	font-family: Georgia;
  	font-size: 17px;
   	color: black;
-	padding-top: 20px;
-	padding-bottom: 20px;
+  	padding: 20px;
+}
+
+.bites {
+	margin: 0;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: black;
+	background-color: WhiteSmoke;
+  	font-family: Verdana;
+  	font-size: 12px;
+  	color: DimGray;
+  	padding: 10px;
+}
+
+/* FOOTER */
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: mediumaquamarine;
+	margin: auto;
+	font-family: Verdana;
+	font-size: 12px;
+	bottom: 0;
+	height: 300px;
+	margin-top: 100px;
+	width: 100%;
+}
+
+.footer-title {
+	font-family: Georgia;
+  	font-size: 16px;
+  	font-weight: bold;
+  	color: white;
+}
+
+a {
+	color: black;
+}
+
+.footer-copyright {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
 }
