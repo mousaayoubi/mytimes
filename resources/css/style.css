@@ -20,9 +20,6 @@ html, body {
 	height: 60px;
 	width: 300px;
 	padding-left: 30px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
 }
 
 .header-title {
@@ -59,9 +56,6 @@ html, body {
 	position: absolute;
 	justify-content: space-between;
 	width: 100%;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
 	overflow: auto;
 	margin-top: 100px;
 }
@@ -72,9 +66,6 @@ html, body {
 	flex-flow: wrap;
 	align-self: flex-start;
 	width: 630px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
 	padding-right: 20px;
 }
 
@@ -84,9 +75,6 @@ html, body {
 	flex-flow: wrap;
 	align-self: flex-start;
 	width: 300px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
 	padding-right: 20px;
 }
 
@@ -96,9 +84,6 @@ html, body {
 	flex-flow: wrap;
 	align-self: flex-start;
 	width: 240px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
 	padding-right: 20px;
 }
 
@@ -107,25 +92,22 @@ html, body {
 .column-large--main-title {
 	display: inline-flex;
 	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 	width: 630px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
 	background-image: url("../images/img-story-main.png");
 	height: 300px;
 	font-family: Georgia;
 	font-weight: bold;
 	font-size: 40px;
 	color: white;
+	padding-left: 10px;
 }
 
 .column-large--main-text {
 	display: inline-flex;
 	flex-direction: row;
 	width: 630px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
 	align-items: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -134,115 +116,85 @@ html, body {
   	color: black;
 }
 
-.column-large--second-title {
+.second-container {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 630px;
+	height: 280px;
+}
+
+.third-container {
 	display: inline-flex;
 	flex-direction: row;
 	width: 630px;
+	height: 280px;
+}
+
+.box {
+	display: inline-flex;
+	width: 315px;
+	height: 315px; 
+}
+
+.column-large--second-title {
+	display: inline-flex;
 	font-family: Georgia;
-	font-size: 17px;
+	font-size: 30px;
 	color: black;
 	font-weight: bold;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	padding-top: 20px;
+	width: 315px;
 	padding-bottom: 20px;
 }
 
 .column-large--second-text {
 	display: inline-flex;
-	flex-direction: row;
-	width: 630px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	align-items: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	font-family: Georgia;
- 	font-size: 17px;
-  	color: black;
-}
-
-.column-large--third-title {
-	display: inline-flex;
-	flex-direction: row;
-	width: 630px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	background-image: url("../images/img-story-2.png");
-	height: 300px;
-	font-family: Georgia;
-  	font-weight: bold;
-  	font-size: 30px;
-  	color: white;
-  	justify-content: flex-start;
-  	flex-direction: column;
-  	text-align: center;
-}
-
-.column-large--fourth-title {
-	display: inline-flex;
-	flex-direction: row;
-	width: 630px;
+	width: 315px;
 	font-family: Georgia;
 	font-size: 17px;
 	color: black;
-	font-weight: bold;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
 
-.column-large--fourth-text {
+.third-container--first-image {
 	display: inline-flex;
-	flex-direction: row;
-	width: 630px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
+	width: 315px;
+	justify-content: center;
 	align-items: center;
-	font-family: Georgia;
- 	font-size: 17px;
-  	color: black;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-.column-large--fifth-title {
-	display: inline-flex;
-	flex-direction: row;
-	width: 630px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	align-items: center;
-	background-image: url("../images/img-story-3.png");
+	text-align: center;
+	flex-wrap: wrap;
+	background-image: url("../images/img-story-2.png");
+	background-repeat: no-repeat;
 	height: 300px;
 	font-family: Georgia;
   	font-weight: bold;
   	font-size: 30px;
   	color: white;
-  	justify-content: flex-start;
-  	flex-direction: column;
-  	text-align: center;
 }
 
+.third-container--second-image {
+	display: inline-flex;
+	width: 315px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-wrap: wrap;
+	background-image: url("../images/img-story-3.png");
+	background-repeat: no-repeat;
+	height: 300px;
+	font-family: Georgia;
+  	font-weight: bold;
+  	font-size: 30px;
+  	color: white;
+}
 /* SECOND COLUMN */
 
 .column-medium--first-title {
 	display: inline-flex;
 	width: 630px;
 	font-family: Georgia;
-	font-size: 17px;
+	font-size: 30px;
 	color: black;
 	font-weight: bold;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -250,9 +202,6 @@ html, body {
 .column-medium--first-text {
 	display: inline-flex;
 	width: 630px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
 	align-items: center;
 	font-family: Georgia;
  	font-size: 17px;
@@ -263,18 +212,15 @@ html, body {
 
 .column-medium--second-title {
 	display: inline-flex;
-	width: 630px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
+	justify-content: center;
 	align-items: center;
+	width: 630px;
 	background-image: url("../images/img-story-1.png");
 	height: 300px;
 	font-family: Georgia;
  	font-weight: bold;
   	font-size: 30px;
   	color: white;
-  	justify-content: flex-start;
   	flex-direction: column;
   	text-align: center;
 }
@@ -282,9 +228,6 @@ html, body {
 .column-medium--third-text {
 	display: inline-flex;
 	width: 630px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
 	align-items: center;
 	font-family: Georgia;
  	font-size: 17px;
@@ -298,9 +241,6 @@ html, body {
 .column-small--main-image {
 	display: inline-flex;
 	width: 630px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
 	align-items: center;
 }
 
@@ -311,9 +251,6 @@ html, body {
 	font-size: 16px;
 	color: black;
 	font-weight: bold;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	justify-content: center;
@@ -332,15 +269,15 @@ html, body {
 .bites {
 	display: flex;
 	margin: 0;
-	border-bottom-style: solid;
-	border-width: 1px;
-	border-color: black;
 	background-color: WhiteSmoke;
   	font-family: Verdana;
   	font-size: 12px;
   	color: DimGray;
   	width: 100%;
   	padding: 10px;
+  	border-bottom-style: solid;
+  	border-width: 1px;
+  	border-color: black;
 }
 
 /* FOOTER */
