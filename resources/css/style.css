@@ -269,7 +269,7 @@ html, body {
 }
 
 .bites {
-	display: flex;
+	display: block;
 	margin: 0;
 	background-color: WhiteSmoke;
   	font-family: Verdana;
